@@ -21,3 +21,9 @@ after_success:
 env:
   global:
     secure: mm7X+dFQD4tUYwXxeVOJzereC04KdpTe6vrho1g6zmWgnMEqBe/gnX16Hv1LeQRzTnMVUxpcTXMkh4Nj16WL2IFAnizWiiMfFb6wUBBOM0dFhYJR7EzSzKMu7/CuhxIqT5ps/Ls3UUnpzUoI9ImygiLJCaNJCSjJxQ+hwnxyyEZD0FHvlQQcv3kiKAd8sg9oWKqTSBGIwBnn9ZGT9G2uykv+XU2B5B+dW9IoXaDR3SfUGlANldorD4T6S9QNs+JdwhX1NDDd7rOqF92qu2RA0TFf2Ljy1STimLXvVhGgcfetsUhVgkmDGKxp1/iax4jlJ8wRU7faqeFAt1WvJpBaOnsK8OcsNqf7iqmYxWxHKavFHfGKgc7L+dMP9gWIqgtzmfqG94/49IN8lPMpB29J8sfZfrb4nKNu66S9GqQCr/jgGD1uTXzC6SggoL6ro2di0bAvAlb6zgpv5zChqKkTzhHE/6rVA6EZG/JIIx5lXaDvkD+yp3o2LNKNknpwRPEY0KpReRivvajucDwiPqQD79gkKWOGtoo5034SGSGCUmXvAydJNVPJt6c5ADKpVgyiT065Gja4/n+n4GhjT6QKc2WRGQRQZGtkYkNh95tKUvgZiZ1G7+EAuRCotoKiqLPkLgUpzCoD7kZpo/Ai5xU2aRcKpMsAHEHSRP9F06F+zp4=
+
+cache:
+  directories:
+    - $GOPATH/src/github.com/arduino/arduino-builder/test/downloaded_tools
+    - $GOPATH/src/github.com/arduino/arduino-builder/test/downloaded_hardware
+    - $GOPATH/src/github.com/arduino/arduino-builder/test/downloaded_board_manager_stuff
